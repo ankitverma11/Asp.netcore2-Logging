@@ -1,0 +1,41 @@
+﻿@model IEnumerable<AspnetCoreLogging.Models.Menu>
+
+@{
+    ViewData["Title"] = "Menu";
+}
+
+<h2>Menu</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.parentMenuID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MenuName)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.parentMenuID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MenuName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MenuID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MenuID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MenuID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,136 @@
+﻿@{
+    ViewData["Title"] = "Menu";
+}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="~/css/custom.css" rel="stylesheet" />
+<link href="~/fonts/fontawesome/css/font-awesome.css" rel="stylesheet" />
+<link href="~/css/menudata.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.9.1.min.js"></script>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-lg-6 pull-left">
+                    <a>
+                        <img class="mt-18" src="~/images/logo.png">
+                    </a>
+                    <a data-target="#menu-toggle" id="menu-toggle" menuopen="true">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="pull-right">
+                        <a>
+                            <img class="logo-sm" src="~/images/enterprise.png">
+                        </a>
+                        <ul class="user-info text-right">
+                            <li>
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret-icon"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-list">
+                                    <li>
+                                        <a>Change Password</a>
+                                    </li>
+                                    <li>
+                                        <a>Logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Welcome Ankit</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+
+    @*<div>
+            <a href="#" id="MenuSummary">Get Menu Data</a>
+        </div>*@
+
+    @*<script id="MenuSummaryTemplate" type="text/html">
+            <table class="table table-bordered table-condensed">
+                <tr>
+                    <th>Parent</th>
+                    <th>Menu</th>
+                </tr>
+                {{#MenuSummary}}
+                <tr id="tr{{MenuID}}">
+                    <td>{{MenuName}}</td>
+                    <td>{{MenuPage}}</td>
+                </tr>
+                {{/MenuSummary}}
+            </table>
+        </script>*@
+
+    <div id="wrapper">
+
+        <!-- LEFT SIDEBAR -->
+        <div id="sidebar-wrapper">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="dropdown">
+                    
+                </li>
+                </ul>
+            </div>
+        </div>
+
+                    <table id="summary" class="table table-bordered table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Parent</th>
+                                <th>Menu</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+
+                    @*@section scripts{
+
+                        @*<script src="~/Scripts/mustache.js"></script>*@
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                //$('#MenuSummary').click(function () {
+                                $.ajax(
+                                    {
+                                        url: "/Menus/MenuDataAsJSON",
+                                        type: "Get",
+                                        datatype: "json",
+                                        success: function (data) {
+                                            $("#sidebar-wrapper").html(data);
+                                          //  menudata(data);
+                                            return data;
+                                        },
+                                        error: function (xhr, status, error) {
+                                            alert(xhr.responceText);
+                                            alert(ststus);
+                                            alert(error);
+                                        }
+                                    });
+                                // });
+                            });
+
+
+
+                            function menudata(data) {
+
+                                //$('#summary tbody').empty();
+                                //$.each(data, function (i, item) {
+                                //    alert(item.menuName);
+                                //    var rows = " <tr>" + " <td> " + item.menuName + "</td>" + "  <td> " + item.menuPage + "</td>" + " </tr > ";
+                                //    $('#summary tbody').append(rows);
+                                //});
+                            }
+                        </script>
+
+                    }*@
+
+</body>

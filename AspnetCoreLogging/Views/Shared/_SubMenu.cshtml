@@ -1,0 +1,17 @@
+﻿@model IEnumerable<AspnetCoreLogging.Models.MenuModuleMapping_Core>
+
+@{
+<ul class="dropdown-menu" id="sidemenu">
+
+    @foreach (var submenu in Model.Where(s => s.ParentMenuID == 1 && s.ModuleID != null))
+    {
+        <li class="dropdown dropdown-submenu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+                @submenu.MenuName
+                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                </a>
+            </li>
+        }
+    </ul>
+    }

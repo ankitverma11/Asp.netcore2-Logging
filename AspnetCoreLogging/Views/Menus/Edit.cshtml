@@ -1,0 +1,107 @@
+﻿@*@model AspnetCoreLogging.Models.MainModel*@
+@*@model IEnumerable<AspnetCoreLogging.Models.MenuModuleMapping_Core>*@
+
+@inject AspnetCoreLogging.Service.MenumoduleMappingService menus
+
+@{
+    ViewData["Title"] = "Index";
+    var menusList = ViewBag.MenuData as IEnumerable<AspnetCoreLogging.Models.MenuModuleMapping_Core>;
+
+}
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="~/css/custom.css" rel="stylesheet" />
+<link href="~/fonts/fontawesome/css/font-awesome.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/jquery-ui.js" type="text/javascript"></script>
+<link href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/themes/blitzer/jquery-ui.css" rel="stylesheet" type="text/css" />
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-lg-6 pull-left">
+                    <a>
+                        <img class="mt-18" src="~/images/logo.png">
+                    </a>
+                    <a data-target="#menu-toggle" id="menu-toggle" menuopen="true">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="pull-right">
+                        <a>
+                            <img class="logo-sm" src="~/images/enterprise.png">
+                        </a>
+                        <ul class="user-info text-right">
+                            <li>
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret-icon"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-list">
+                                    <li>
+                                        <a>Change Password</a>
+                                    </li>
+                                    <li>
+                                        <a>Logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Welcome James Miler</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+
+
+
+    @{
+
+
+        @if (Model != null)
+        {
+            <div id="sidebar-wrapper">
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="dropdown">
+                        @foreach (var parentMenu in menus.GetMenuByparent(0).Where(n => n.ParentMenuID == 0))
+                        {
+                            <a href="#" id="parentid" data-toggle="dropdown" class="dropdown-toggle">
+                                @*onclick="SubmenuData('@MenuName.MenuID');">*@
+                                <i class="fa fa-fw fa-line-chart"></i>
+                                <span class="glyphicon glyphicon-chevron-right pull-right"> </span>
+                                @parentMenu.MenuName
+                            </a>
+
+                            @foreach (var subMenu in menus.GetMenuByparent(parentMenu.MenuID).Where(n => n.ParentMenuID == @parentMenu.MenuID))
+                            {
+                                <ul class="dropdown-menu" id="sidemenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        @subMenu.MenuName
+                                        <span class="glyphicon glyphicon-chevron-right pull-right"> </span>
+                                    </a>
+                                    @foreach (var ChildMenu in menus.GetMenuByparent(subMenu.MenuID).Where(n => n.ParentMenuID == @subMenu.MenuID))
+                                    {
+                                        <ul>
+                                            <a href="#">
+                                                @ChildMenu.MenuName
+                                            </a>
+                                        </ul>
+                                    }
+                                </ul>
+                            }
+
+                        }
+                    </li>
+                </ul>
+
+            </div>
+        }
+    }
+</body>

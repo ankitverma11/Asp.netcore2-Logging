@@ -1,0 +1,602 @@
+2018-06-25T15:22:59.6416181+05:30  [INF] User profile is available. Using '"C:\Users\Ankit.Verma\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-06-25T15:23:00.0101613+05:30  [INF] Creating key {38eaad7d-33d8-4bea-b399-245d8dcea1d7} with creation date 2018-06-25 09:52:59Z, activation date 2018-06-25 09:52:59Z, and expiration date 2018-09-23 09:52:59Z. (77afce94)
+2018-06-25T15:23:00.0981277+05:30  [INF] Writing data to file '"C:\Users\Ankit.Verma\AppData\Local\ASP.NET\DataProtection-Keys\key-38eaad7d-33d8-4bea-b399-245d8dcea1d7.xml"'. (da22a8b1)
+2018-06-25T15:23:01.9854293+05:30 0HLEQG5O9L947:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:58256/   (ca22a1cb)
+2018-06-25T15:23:02.5277899+05:30 0HLEQG5O9L947:00000001 [INF] Executing action method "AspnetCoreLogging.Controllers.HomeController.Index (AspnetCoreLogging)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-06-25T15:23:02.5405016+05:30 0HLEQG5O9L947:00000001 [INF] Ankit Index Method Called!!! (8cdbd864)
+2018-06-25T15:23:08.2303848+05:30 0HLEQG5O9L947:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2018-06-25T15:23:09.0447716+05:30 0HLEQG5O9L947:00000001 [INF] Executed action "AspnetCoreLogging.Controllers.HomeController.Index (AspnetCoreLogging)" in 6536.6813ms (afa2e885)
+2018-06-25T15:23:09.0882498+05:30 0HLEQG5O9L949:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:58256/css/site.css   (ca22a1cb)
+2018-06-25T15:23:09.1112559+05:30 0HLEQG5O9L94C:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:58256/images/banner2.svg   (ca22a1cb)
+2018-06-25T15:23:09.1128516+05:30 0HLEQG5O9L94A:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:58256/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2018-06-25T15:23:09.1370523+05:30 0HLEQG5O9L94B:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:58256/images/banner1.svg   (ca22a1cb)
+2018-06-25T15:23:09.1668294+05:30 0HLEQG5O9L947:00000001 [INF] Request finished in 7185.5049ms 200 text/html; charset=utf-8 (791a596a)
+2018-06-25T15:23:09.2047032+05:30 0HLEQG5O9L94C:00000001 [INF] Sending file. Request path: '"/images/banner2.svg"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\images\banner2.svg"' (27b0a520)
+2018-06-25T15:23:09.2353639+05:30 0HLEQG5O9L94A:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2018-06-25T15:23:09.2449949+05:30 0HLEQG5O9L94B:00000001 [INF] Sending file. Request path: '"/images/banner1.svg"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\images\banner1.svg"' (27b0a520)
+2018-06-25T15:23:09.2572169+05:30 0HLEQG5O9L949:00000001 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\css\site.css"' (27b0a520)
+2018-06-25T15:23:09.2704165+05:30 0HLEQG5O9L94B:00000001 [INF] Request finished in 201.8998ms 200 image/svg+xml (791a596a)
+2018-06-25T15:23:09.3171723+05:30 0HLEQG5O9L94A:00000001 [INF] Request finished in 232.2628ms 200 text/css (791a596a)
+2018-06-25T15:23:09.3420571+05:30 0HLEQG5O9L949:00000001 [INF] Request finished in 232.2625ms 200 text/css (791a596a)
+2018-06-25T15:23:09.3965640+05:30 0HLEQG5O9L94C:00000001 [INF] Request finished in 333.2279ms 200 image/svg+xml (791a596a)
+2018-06-25T15:23:09.4607390+05:30 0HLEQG5O9L947:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:58256/lib/jquery/dist/jquery.js   (ca22a1cb)
+2018-06-25T15:23:09.4830959+05:30 0HLEQG5O9L94B:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:58256/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2018-06-25T15:23:09.4890658+05:30 0HLEQG5O9L947:00000002 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2018-06-25T15:23:09.5125343+05:30 0HLEQG5O9L94B:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\lib\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2018-06-25T15:23:09.5919312+05:30 0HLEQG5O9L94B:00000002 [INF] Request finished in 122.9927ms 200 application/javascript (791a596a)
+2018-06-25T15:23:09.6401886+05:30 0HLEQG5O9L949:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:58256/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA   (ca22a1cb)
+2018-06-25T15:23:09.6494897+05:30 0HLEQG5O9L949:00000002 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\js\site.js"' (27b0a520)
+2018-06-25T15:23:09.6666047+05:30 0HLEQG5O9L949:00000002 [INF] Request finished in 65.5466ms 200 application/javascript (791a596a)
+2018-06-25T15:23:09.6943499+05:30 0HLEQG5O9L947:00000002 [INF] Request finished in 208.5897ms 200 application/javascript (791a596a)
+2018-06-25T15:23:09.7170952+05:30 0HLEQG5O9L94A:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:58256/images/banner3.svg   (ca22a1cb)
+2018-06-25T15:23:09.7272729+05:30 0HLEQG5O9L94A:00000002 [INF] Sending file. Request path: '"/images/banner3.svg"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\images\banner3.svg"' (27b0a520)
+2018-06-25T15:23:09.7379173+05:30 0HLEQG5O9L94C:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:58256/images/banner4.svg   (ca22a1cb)
+2018-06-25T15:23:09.7938308+05:30 0HLEQG5O9L94C:00000002 [INF] Sending file. Request path: '"/images/banner4.svg"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\images\banner4.svg"' (27b0a520)
+2018-06-25T15:23:09.8201648+05:30 0HLEQG5O9L94A:00000002 [INF] Request finished in 123.5904ms 200 image/svg+xml (791a596a)
+2018-06-25T15:23:09.8365589+05:30 0HLEQG5O9L94C:00000002 [INF] Request finished in 138.2623ms 200 image/svg+xml (791a596a)
+2018-06-25T15:23:10.2406193+05:30 0HLEQG5O9L94B:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:58256/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2   (ca22a1cb)
+2018-06-25T15:23:10.2523979+05:30 0HLEQG5O9L94B:00000003 [INF] Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"' (27b0a520)
+2018-06-25T15:23:10.2752837+05:30 0HLEQG5O9L94B:00000003 [INF] Request finished in 34.7281ms 200 font/woff2 (791a596a)
+2018-06-25T15:23:10.4407570+05:30 0HLEQG5O9L949:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:58256/favicon.ico   (ca22a1cb)
+2018-06-25T15:23:10.4464840+05:30 0HLEQG5O9L949:00000003 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\favicon.ico"' (27b0a520)
+2018-06-25T15:23:10.4672693+05:30 0HLEQG5O9L949:00000003 [INF] Request finished in 21.9368ms 200 image/x-icon (791a596a)
+2018-06-25T15:23:26.5895463+05:30 0HLEQG5O9L947:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:58256/Menus   (ca22a1cb)
+2018-06-25T15:23:26.5968071+05:30 0HLEQG5O9L947:00000003 [INF] Executing action method "AspnetCoreLogging.Controllers.MenusController.Index (AspnetCoreLogging)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-06-25T15:23:27.3254566+05:30 0HLEQG5O9L947:00000003 [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"MenuModuleMappingContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-06-25T15:23:28.8468799+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("73"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE [s].[ParentMenuID] = 0" (0723d8ff)
+2018-06-25T15:23:29.2838981+05:30 0HLEQG5O9L947:00000003 [INF] Executing ViewResult, running view at path "/Views/Menus/Index.cshtml". (9707eebe)
+2018-06-25T15:23:29.3216237+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE [s].[ParentMenuID] = 0" (0723d8ff)
+2018-06-25T15:23:29.4428151+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("90"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.4634736+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.4735280+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.4810855+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.4886177+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5002515+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5140487+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5417251+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5475907+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5548546+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5609332+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5660348+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5751221+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5851441+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5925150+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.5992259+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6048394+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6104546+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6164656+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6219931+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6274517+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6330318+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6384864+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6440755+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6497621+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6592418+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6687758+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6777906+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6848876+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6909141+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.6961608+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7017416+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7100883+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7151783+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7217213+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7267412+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7318491+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7370955+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7436685+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7488405+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7545354+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7596253+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7650019+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7709334+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7759906+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7812723+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7865030+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7920232+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.7972153+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8028832+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8082291+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8130999+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8195978+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8246688+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8296172+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8362256+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8470302+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8554134+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8621661+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8677535+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8736490+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8793855+05:30 0HLEQG5O9L947:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:23:29.8879127+05:30 0HLEQG5O9L947:00000003 [INF] Executed action "AspnetCoreLogging.Controllers.MenusController.Index (AspnetCoreLogging)" in 3289.9701ms (afa2e885)
+2018-06-25T15:23:29.9292612+05:30 0HLEQG5O9L947:00000003 [INF] Request finished in 3318.3427ms 200 text/html; charset=utf-8 (791a596a)
+2018-06-25T15:23:29.9554358+05:30 0HLEQG5O9L94C:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:58256/css/custom.css   (ca22a1cb)
+2018-06-25T15:23:29.9822257+05:30 0HLEQG5O9L94A:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:58256/fonts/fontawesome/css/font-awesome.css   (ca22a1cb)
+2018-06-25T15:23:30.0097918+05:30 0HLEQG5O9L94C:00000003 [INF] Sending file. Request path: '"/css/custom.css"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\css\custom.css"' (27b0a520)
+2018-06-25T15:23:30.0420217+05:30 0HLEQG5O9L94A:00000003 [INF] Sending file. Request path: '"/fonts/fontawesome/css/font-awesome.css"'. Physical path: '"E:\Genecis_SVN\AspnetCoreLogging\AspnetCoreLogging\wwwroot\fonts\fontawesome\css\font-awesome.css"' (27b0a520)
+2018-06-25T15:23:30.0726591+05:30 0HLEQG5O9L94C:00000003 [INF] Request finished in 147.5279ms 200 text/css (791a596a)
+2018-06-25T15:23:30.0812741+05:30 0HLEQG5O9L94A:00000003 [INF] Request finished in 154.0661ms 200 text/css (791a596a)
+2018-06-25T15:23:46.1035390+05:30 0HLEQG5O9L94B:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:58256/Menus/MPL%20Mapping   (ca22a1cb)
+2018-06-25T15:23:46.1112245+05:30 0HLEQG5O9L94B:00000004 [INF] Request finished in 8.084ms 404  (791a596a)
+2018-06-25T15:42:07.3878230+05:30  [INF] User profile is available. Using '"C:\Users\Ankit.Verma\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-06-25T15:42:07.9325904+05:30 0HLEQGGDRB5I4:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:58256/   (ca22a1cb)
+2018-06-25T15:42:08.1215136+05:30 0HLEQGGDRB5I4:00000001 [INF] Executing action method "AspnetCoreLogging.Controllers.HomeController.Index (AspnetCoreLogging)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-06-25T15:42:08.1291244+05:30 0HLEQGGDRB5I4:00000001 [INF] Ankit Index Method Called!!! (8cdbd864)
+2018-06-25T15:42:10.2653582+05:30 0HLEQGGDRB5I4:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2018-06-25T15:42:10.7391979+05:30 0HLEQGGDRB5I4:00000001 [INF] Executed action "AspnetCoreLogging.Controllers.HomeController.Index (AspnetCoreLogging)" in 2600.674ms (afa2e885)
+2018-06-25T15:42:10.7770355+05:30 0HLEQGGDRB5I4:00000001 [INF] Request finished in 2850.2198ms 200 text/html; charset=utf-8 (791a596a)
+2018-06-25T15:42:13.4031643+05:30 0HLEQGGDRB5I4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:58256/Menus   (ca22a1cb)
+2018-06-25T15:42:13.4126232+05:30 0HLEQGGDRB5I4:00000002 [INF] Executing action method "AspnetCoreLogging.Controllers.MenusController.Index (AspnetCoreLogging)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-06-25T15:42:29.3981367+05:30 0HLEQGGDRB5I4:00000002 [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"MenuModuleMappingContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-06-25T15:42:29.9949226+05:30 0HLEQGGDRB5I4:00000002 [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE [s].[ParentMenuID] = 0" (0723d8ff)
+2018-06-25T15:57:32.3389760+05:30  [INF] User profile is available. Using '"C:\Users\Ankit.Verma\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-06-25T15:57:32.8289652+05:30 0HLEQGP1FRU0B:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:58256/   (ca22a1cb)
+2018-06-25T15:57:33.0170903+05:30 0HLEQGP1FRU0B:00000001 [INF] Executing action method "AspnetCoreLogging.Controllers.HomeController.Index (AspnetCoreLogging)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-06-25T15:57:33.0245175+05:30 0HLEQGP1FRU0B:00000001 [INF] Ankit Index Method Called!!! (8cdbd864)
+2018-06-25T15:57:35.3039056+05:30 0HLEQGP1FRU0B:00000001 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2018-06-25T15:57:35.7856838+05:30 0HLEQGP1FRU0B:00000001 [INF] Executed action "AspnetCoreLogging.Controllers.HomeController.Index (AspnetCoreLogging)" in 2775.7085ms (afa2e885)
+2018-06-25T15:57:35.8105806+05:30 0HLEQGP1FRU0B:00000001 [INF] Request finished in 3006.0845ms 200 text/html; charset=utf-8 (791a596a)
+2018-06-25T15:57:37.7302826+05:30 0HLEQGP1FRU0B:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:58256/Menus   (ca22a1cb)
+2018-06-25T15:57:37.7598739+05:30 0HLEQGP1FRU0B:00000002 [INF] Executing action method "AspnetCoreLogging.Controllers.MenusController.Index (AspnetCoreLogging)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-06-25T15:57:44.4582346+05:30 0HLEQGP1FRU0B:00000002 [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"MenuModuleMappingContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-06-25T15:57:45.5360846+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("60"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE [s].[ParentMenuID] = 0" (0723d8ff)
+2018-06-25T15:57:52.9228752+05:30 0HLEQGP1FRU0B:00000002 [INF] Executing ViewResult, running view at path "/Views/Menus/Index.cshtml". (9707eebe)
+2018-06-25T15:57:52.9848254+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE [s].[ParentMenuID] = 0" (0723d8ff)
+2018-06-25T15:57:53.0638617+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("42"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.0792083+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.1072677+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.1268358+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.1383672+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.1672846+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.1736747+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.1992034+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.2242604+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.2493041+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.2548471+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.2812994+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.2870872+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.2935663+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.2995932+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.3056687+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.3114348+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.3169888+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.3412219+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.3672412+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.3933573+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.4192063+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.4245858+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.4502083+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.4842425+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.5187474+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.5442769+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.5506532+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.5762778+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.6013026+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.6065714+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.6313015+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.6562931+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.6818095+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.6899094+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.7155319+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.7215555+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.7293383+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.7347672+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.7592388+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.7642582+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.7691087+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.7743119+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.7790527+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.7838610+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.8079063+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.8328881+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.8378039+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.8629231+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.8879439+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.8948853+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.9216820+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.9473770+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.9724711+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:53.9963206+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:54.0217446+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__ParentMenuId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__ParentMenuId_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:54.0724349+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:54.0978820+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:54.1026235+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:54.1277314+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:54.1527927+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:54.1581301+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__MenuID_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE ([s].[ParentMenuID] = @__MenuID_0) AND [s].[ModuleID] IS NOT NULL" (0723d8ff)
+2018-06-25T15:57:54.1642740+05:30 0HLEQGP1FRU0B:00000002 [INF] Executed action "AspnetCoreLogging.Controllers.MenusController.Index (AspnetCoreLogging)" in 16406.2773ms (afa2e885)
+2018-06-25T15:57:54.1994529+05:30 0HLEQGP1FRU0B:00000002 [INF] Request finished in 16465.4782ms 200 text/html; charset=utf-8 (791a596a)
+2018-06-25T15:58:57.1174498+05:30 0HLEQGP1FRU0C:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:58256/Menus   (ca22a1cb)
+2018-06-25T15:58:57.1230623+05:30 0HLEQGP1FRU0C:00000001 [INF] Executing action method "AspnetCoreLogging.Controllers.MenusController.Index (AspnetCoreLogging)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-06-25T15:59:06.1221076+05:30 0HLEQGP1FRU0C:00000001 [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"MenuModuleMappingContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-06-25T15:59:06.1451871+05:30 0HLEQGP1FRU0C:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[MenuID], [s].[IsForSmartPhoneApp], [s].[MenuName], [s].[MenuOrder], [s].[MenuPage], [s].[ModuleFunction], [s].[ModuleID], [s].[ParentMenuID], [s].[ParentMenuOrder]
+FROM [MenuModuleMapping] AS [s]
+WHERE [s].[ParentMenuID] = 0" (0723d8ff)

@@ -1,0 +1,12 @@
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\bin\Any CPU\Release\netcoreapp2.0\AspnetCoreLogging.deps.json
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\bin\Any CPU\Release\netcoreapp2.0\AspnetCoreLogging.runtimeconfig.json
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\bin\Any CPU\Release\netcoreapp2.0\AspnetCoreLogging.runtimeconfig.dev.json
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\bin\Any CPU\Release\netcoreapp2.0\AspnetCoreLogging.dll
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\bin\Any CPU\Release\netcoreapp2.0\AspnetCoreLogging.pdb
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\bin\Any CPU\Release\netcoreapp2.0\Serilog.Extensions.Logging.File.dll
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\bin\Any CPU\Release\netcoreapp2.0\Serilog.Extensions.Logging.File.pdb
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\obj\Any CPU\Release\netcoreapp2.0\AspnetCoreLogging.csproj.CoreCompileInputs.cache
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\obj\Any CPU\Release\netcoreapp2.0\AspnetCoreLogging.AssemblyInfoInputs.cache
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\obj\Any CPU\Release\netcoreapp2.0\AspnetCoreLogging.AssemblyInfo.cs
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\obj\Any CPU\Release\netcoreapp2.0\AspnetCoreLogging.dll
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\obj\Any CPU\Release\netcoreapp2.0\AspnetCoreLogging.pdb

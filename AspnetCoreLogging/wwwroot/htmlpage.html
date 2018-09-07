@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+<html>
+
+<body>
+    <!--Header Ens-->
+    <div id="wrapper">
+
+        <!-- LEFT SIDEBAR -->
+        <div id="sidebar-wrapper">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                        <i class="fa fa-fw fa-line-chart"></i>
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                        <span>Activity</span>
+                    </a>
+
+                    <ul class="dropdown-menu" id="sidemenu">
+                        <li class="dropdown dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span>Import</span>
+                                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Import</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Export</a>
+                                </li>
+                                <li>
+                                    <a href="#">Work Order</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        RatKiller
+                                        <span>TM</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Leakage Management</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span>Export</span>
+                                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                            </a>
+                            <ul class="dropdown-menu" id="sidemenu">
+                                <li>
+                                    <a href="#">Custom Export</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Coals Export</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="dropdown dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span>Work Order</span>
+                                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                            </a>
+                            <ul class="dropdown-menu" id="sidemenu">
+                                <li>
+                                    <a href="#">Work Order Details</a>
+                                </li>
+                                <li>
+                                    <a href="#">Edit-Close Work Order</a>
+                                </li>
+                                <li>
+                                    <a href="#">Manual Leak Entry</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span>RatKiller</span>
+                                <span>TM</span>
+                                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                            </a>
+                            <ul class="dropdown-menu" id="sidemenu">
+                                <li>
+                                    <a href="#">RatKiller Details</a>
+                                    <!-- <span>TM</span> -->
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Leakage Management</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-fw fa-map-marker"></i>
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                        <span>Maps</span>
+                    </a>
+                    <ul class="dropdown-menu" id="sidemenu">
+                        <li>
+                            <a href="#">Vehicle Locator</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Vehicle Path Locator</a>
+                        </li>
+                        <li>
+                            <a asp-action="LeakageLocator" asp-controller="Map" asp-area="Map">Leakage Locator</a>
+                        </li>
+                        <li>
+                            <a href="#">Coverage Area</a>
+                        </li>
+                        <li>
+                            <a href="#">Manage Boundaries</a>
+                        </li>
+                        <li>
+                            <a href="#">Exclusion Zone</a>
+                        </li>
+                        <li>
+                            <a href="#">Test Leak</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bar-chart-o"></i>
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                        <span>Reports</span>
+                    </a>
+                    <ul class="dropdown-menu" id="sidemenu">
+                        <li>
+                            <a href="#">Leakage Report</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Device Status Report</a>
+                        </li>
+                        <li>
+                            <a href="#">User List</a>
+                        </li>
+                        <li>
+                            <a href="#">Vehicle Mileage Report</a>
+                        </li>
+                        <li>
+                            <a href="#">Nexus Mileage Report</a>
+                        </li>
+                        <li>
+                            <a href="#">Subscription Report</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
+                        <i class="fa fa-fw fa-cog"></i>
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                        <span>Statistics</span>
+                    </a>
+                    <ul class="dropdown-menu" id="sidemenu">
+                        <li>
+                            <a href="#">Leakage MTTR Analysis</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Leakage Cause Analysis</a>
+                        </li>
+                        <li>
+                            <a href="#">Leakage Trend Analysis</a>
+                        </li>
+                        <li>
+                            <a href="#">Leakage Resolution Analysis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                        <i class="fa fa-fw fa-user"></i>
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                        <span>Administrator</span>
+                    </a>
+                    <ul class="dropdown-menu" id="sidemenu">
+
+
+                        <li class="dropdown dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span>Data File Management</span>
+                                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                            </a>
+                            <ul class="dropdown-menu" id="sidemenu">
+                                <li>
+                                    <a href="#">Problem Code</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Distance Setting</a>
+                                </li>
+                                <li>
+                                    <a href="#">Asset Assignment</a>
+                                </li>
+                                <li>
+                                    <a href="#">Resolution Code</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span>Manage Devices</span>
+                                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                            </a>
+                            <ul class="dropdown-menu" id="sidemenu">
+                                <li>
+                                    <a href="#">Device Status</a>
+                                </li>
+                                <li>
+                                    <a href="#">Assign To Vehicle</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Manage Vehicle</a>
+                        </li>
+
+                        <li class="dropdown dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span>Manage Technicians</span>
+                                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                            </a>
+                            <ul class="dropdown-menu" id="sidemenu">
+                                <li>
+                                    <a href="#">Technician Details</a>
+                                </li>
+                                <li>
+                                    <a href="#">Technician Community Mapping</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span>Customer Setup</span>
+                                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                            </a>
+                            <ul class="dropdown-menu" id="sidemenu">
+                                <li>
+                                    <a href="#">Configuration</a>
+                                </li>
+                                <li>
+                                    <a href="#">Vehicle Type</a>
+                                </li>
+                                <li>
+                                    <a href="#">Customer</a>
+                                </li>
+                                <li>
+                                    <a href="#">System Mapping</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span> Manage Users/Roles</span>
+                                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                            </a>
+                            <ul class="dropdown-menu" id="sidemenu">
+                                <li>
+                                    <a href="#">Users</a>
+                                </li>
+                                <li>
+                                    <a href="#">Advanced Permissions</a>
+                                </li>
+                                <li>
+                                    <a href="#">My Profile</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mobile Apps</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-fw fa-clock-o"></i>
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                        <span>Idle Time</span>
+                    </a>
+                    <ul class="dropdown-menu" id="sidemenu">
+                        <li>
+                            <a href="#">Quick View</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Auto Report Setup</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-fw fa-crosshairs"></i>
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                        <span>MPL</span>
+                    </a>
+                    <ul class="dropdown-menu" id="sidemenu">
+                        <li>
+                            <a href="#">MPL Mapping</a>
+                        </li>
+                        <li>
+                            <a href="#">MPL Details</a>
+                        </li>
+                        <li>
+                            <a href="#">Manage MPL Workorder</a>
+                        </li>
+                    </ul>
+
+                </li>
+
+            </ul>
+        </div>
+
+    
+    </div>
+
+
+</body>
+</html>

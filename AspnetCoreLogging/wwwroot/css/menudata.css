@@ -1,0 +1,127 @@
+nav {
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    display: block;
+    background: #ffffff;
+    color: #0aa4de;
+    text-decoration: none;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 80%;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.nav {
+    vertical-align: top;
+    border-radius:0px;
+}
+
+    .nav li {
+        position: relative;
+    }
+
+    .nav > li {
+        float: left;
+        border-bottom: 4px;
+        margin-right: 1px;
+    }
+
+        .nav > li > a {
+            margin-bottom: 0px;
+           
+        }
+
+        .nav > li:hover,
+        .nav > li:hover > a {
+            border-bottom-color: #ffffff;
+        }
+
+  /*side bar menu*/ 
+    .nav li:hover > a {
+        color: #0aa4de;
+        background: #0aa4de;
+    }
+
+
+    .nav > li:first-child {
+        border-radius: 4px 0 0 4px;
+        background: #ff0000;
+    }
+
+        .nav > li:first-child > a {
+            border-radius: 4px 0 0 0;
+        }
+
+    .nav > li:last-child {
+        border-radius: 0 0 4px 0;
+        margin-right: 0;
+    }
+
+        .nav > li:last-child > a {
+            border-radius: 0 4px 0 0;
+        }
+
+    .nav li li a {
+        margin-top: 1px;
+    }
+
+    .nav li a:first-child:nth-last-child(2):before {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 0;
+        border: 5px solid transparent;
+        top: 50%;
+        right: 5px;
+    }
+
+    /* submenu positioning*/
+    .nav ul {
+        position: absolute;
+        white-space: nowrap;
+        border-bottom: 0px solid;
+        z-index: 1;
+        left: -99999em;
+    }
+
+    .nav > li:hover > ul {
+        left: auto;
+        margin-top: 5px;
+        min-width: 100%;
+    }
+
+    .nav > li li:hover > ul {
+        left: 100%;
+        margin-left: 1px;
+        top: -1px;
+    }
+    /* arrow hover styling */
+    .nav > li > a:first-child:nth-last-child(2):before {
+        border-top-color: #aaa;
+    }
+
+    .nav > li:hover > a:first-child:nth-last-child(2):before {
+        border: 5px solid transparent;
+        border-bottom-color: orange;
+        margin-top: -5px
+    }
+
+    .nav li li > a:first-child:nth-last-child(2):before {
+        border-left-color: #aaa;
+        margin-top: -5px
+    }
+
+    .nav li li:hover > a:first-child:nth-last-child(2):before {
+        border: 5px solid transparent;
+        border-right-color: orange;
+        right: 10px;
+    }
+
+

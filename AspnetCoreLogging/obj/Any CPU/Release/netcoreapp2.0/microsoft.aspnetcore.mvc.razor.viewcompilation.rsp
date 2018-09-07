@@ -1,0 +1,13 @@
+E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=AspnetCoreLogging
+--content-root=E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging
+--file=E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\Views\Home\About.cshtml
+--file=E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\Views\Home\Contact.cshtml
+--file=E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\Views\Home\Index.cshtml
+--file=E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\Views\Shared\Error.cshtml
+--file=E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\Views\Shared\_Layout.cshtml
+--file=E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\Views\Test\Contact.cshtml
+--file=E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\Views\_ViewImports.cshtml
+--file=E:\Ankit\my data\AspnetCoreLogging\AspnetCoreLogging\Views\_ViewStart.cshtml

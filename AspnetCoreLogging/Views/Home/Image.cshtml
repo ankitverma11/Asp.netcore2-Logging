@@ -1,0 +1,77 @@
+﻿@model AspnetCoreLogging.Models.Image
+
+@{
+    ViewData["Title"] = "Image Page";
+    var imgSrc = "";
+    @if (Model.ImageData != null)
+    {
+        var base64 = Convert.ToBase64String(Model.ImageData);
+        imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+    }
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        var Imagedata = JSON.stringify({
+            'filename': "my-image",
+            'fileext': "jpeg"
+        });
+
+   $("#btndownload").click(function () {
+            $.ajax({
+                @*//url: "@Url.Action("Download", "Home", new { filename = "my-image", fileext = "jpeg" })"*@
+                url: "/Home/Download",
+                type: "Post",
+                data: Imagedata,
+             datatype: "json",
+             contentType: "application/json",
+             success: function (response) {
+                   window.location = '@Url.Action("Download", "Home", new { filename = "my-image.jpg", fileext = "jpg" })';
+               //  alert('Image not found or matched');  //?filename=' + my - image + '&fileext=' + jpeg;
+             },
+             error: function (x) {
+
+                 alert('Image not found or matched');
+             }
+            });
+        });
+    });
+
+</script>
+
+
+<div style="width:200px; height:100px">
+    <label class="control-label">Image : </label>
+    <img src="@imgSrc" style="max-width:100px; max-height:100px;" />
+    <div>
+        <span>
+            @if (Model.ImageData != null)
+            {
+
+                @*<a asp-controller="Home" asp-action="Download" class="btn btn-default"  id="btndownload">Download Image</a>*@
+                <button id="btndownload" class="btn btn-default">Download Image</button>
+            }
+            else
+            {
+                <p class="text-danger">
+                    @ViewBag.Error
+                </p>
+            }
+
+            @*<a href="@Url.Action("Download","Home",new { filename = "my-image", fileext = "jpeg" })  class="btn btn-default"">Download Image</a>*@
+
+            @*<a href="/Home/Download?filename='my-image'&fileext='jpeg'" class="btn btn-default">Download Image</a>*@
+
+            @*@Html.ActionLink("DownloadImage",
+                       "Download",
+                       "Home",
+                       new { filename = "my-image", fileext = "jpeg" })
+
+                <img src="data:image/jpg;base64,[base64-encoded byte array here]" class="img-responsive" height="100" width="100" />*@
+        </span>
+
+    </div>
+</div>
+
+
